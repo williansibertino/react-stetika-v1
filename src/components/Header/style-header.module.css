@@ -1,0 +1,31 @@
+.containerHeader {
+    background-color: #F8A5C2;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 4px 0px #F78FB3;
+}
+img {
+    height: 30px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.menu a {
+    font-family: "Jomhuria", serif;
+    font-size: 1.5rem;
+    color: #303952;
+    padding: 2px 10px;
+    border: 1px solid #CF6A87;
+    border-radius: 10px 5px 10px 10px;
+}
+.linkAtivo {
+    background-color: #EA8685;
+}
