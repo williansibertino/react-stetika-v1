@@ -7,8 +7,8 @@ function ItemCard(props) {
             <ul>
                 <li className={estilos.itemCard}>
                     <div>
-                        <h2>{props.nome}</h2>
-                        <p>Serviços Contratados: {props.servico}</p>
+                        <h2>{props.dados.dataMarcada}<span className={estilos.dividerRound}></span>{props.dados.nome}<span className={estilos.dividerRound}></span>{props.dados.cor}<span className={estilos.dividerRound}></span>{props.dados.idade} anos</h2>
+                        <p>Serviços Contratados: {props.dados.servico}</p>
                     </div>
                 </li>
             </ul>

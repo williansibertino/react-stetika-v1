@@ -4,6 +4,15 @@
 .itemCard {
     background-color: #FFC1D7;
     flex-grow: 1;
-    padding: 1rem 2rem;
+    padding: 1rem;
     border-radius: 1rem;
+}
+.dividerRound {
+    display: inline-block;
+    background: #CF6A87;
+    color: #fff;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    margin: auto 10px auto 10px;
 }
