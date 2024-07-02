@@ -1,4 +1,4 @@
-.containerFooter {
+.barraFilter {
     background-color: #F8A5C2;
     flex-shrink: 0;
     display: flex;
@@ -8,8 +8,5 @@
     padding: 1rem 1rem;
     border-radius: 1rem;
     box-shadow: 0px 4px 4px 0px #F78FB3;
-    /*position: fixed;
-    bottom: 0;
-    /*margin-bottom: 1rem;
-    flex-grow: 1;*/
+    margin-bottom: 1rem;
 }

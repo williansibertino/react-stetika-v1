@@ -10,13 +10,18 @@ body {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  
 }
 
 h1 {
   font-size: 1.5rem;
   font-family: "Josefin Slab", serif;
   font-weight: bold;
+  color: #303952;
+}
+h2 {
+  font-size: 1.2rem;
+  font-family: "Josefin Slab", serif;
+  font-weight: 700;
   color: #303952;
 }
 p {
